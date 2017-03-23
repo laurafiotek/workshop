@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	color: #2D403E;
+	background-color: #FFF9E3;
+}
+header {
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.fiotek {
+	margin-left: 1rem;
+	width: 35%;
+	font-weight: 300;
+}
+a:link, a:visited, a:active {
+	color: #2D403E;
+	text-decoration: none;
+}
+a:hover {
+	color: #50A5BF;
+	text-decoration: none;
+	transition: 1s;
+}
+.bienvenidos {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: flex-start;
+	padding: 11rem;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2rem;
+	width: 35%;
+}
+img {
+	width: 10rem;
+	height: 10rem;
+}
+.experiencias, h3, h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-left: 0.5rem;
+	margin-top: 0;
+}
+h3 {
+	margin-left: 5rem;
+}
+hr {
+	width: 10rem;
+	display: flex;
+	justify-content: center;
+}
+.retoques, .campanas, .brand {
+	position: relative;
+	padding-bottom: 3rem;
+	display: flex;
+	justify-content: space-around;
+}
+.last_item {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	display: flex;
+	flex-direction: column-reverse;
+	margin-left: 35%;
+}
+textarea {
+	width: 260px;
+	height: 90px;
+	border-radius: 2px;
+	border: 1px solid grey;
+}
+label, option {
+	font-family: 'Roboto Slab', serif;
+}
+.deadline{
+	padding-bottom: 6rem;
+}
+.detalles_proyecto {
+	margin-left: 3.5rem;
+}
+.select_option {
+	height: 28px;
+	width: 260px;
+	border-radius: 2px;
+	border: 1px solid grey;
+	margin-left: 3.5rem;
+}
+@media (max-width:425px) {
+	header {
+		width: 100%
+	}
+	nav {
+		margin-left: 0;
+		font-size: 0.8rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-top: 16%;
+	}
+	h1 {
+		width: 8rem;
+		height: 0.5rem;
+		font-size: 0.7rem;
+	}
+	.welcome_mss {
+		justify-content: flex-start;
+		padding-left: 0;
+		font-size: 
+	}
+	}
